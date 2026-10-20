@@ -8,15 +8,15 @@ This repository is an interactive explorer for the **Mandelbrot set**, one of th
 
 The Mandelbrot set is a collection of points in the **complex plane**, where each point represents a complex number
 
-$
+$$
 c=a+bi, \quad i^2=-1.
-$
+$$
 
 For each candidate point $c$, start with $z_0=0$ and repeatedly calculate
 
-$
+$$
 \boxed{z_{n+1}=z_n^2+c.}
-$
+$$
 
 This process is called **iteration**. A point $c$ belongs to the Mandelbrot set precisely when the sequence $z_0,z_1,z_2,\ldots$ remains **bounded**—that is, it never escapes arbitrarily far from the origin.
 
