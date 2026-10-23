@@ -20,6 +20,8 @@ jobs:
         env:
           GITHUB_PAGES: 'true'
       - if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
